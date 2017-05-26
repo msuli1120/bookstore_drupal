@@ -1,0 +1,9 @@
+name: Book
+description: 'Provides Book content type and related configuration. Use this to add new books.'
+type: module
+core: 8.x
+dependencies:
+  - core
+  - field
+  - image
+  - node

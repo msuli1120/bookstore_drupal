@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.book_review
+  module:
+    - options
+id: node.book_review.field_rating
+field_name: field_rating
+entity_type: node
+bundle: book_review
+label: Rating
+description: 'choose rating'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

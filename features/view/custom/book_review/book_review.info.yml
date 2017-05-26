@@ -1,0 +1,16 @@
+name: 'Book Review'
+description: 'Provides Book Review content type and related configuration. give a book a review'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - comment
+  - field
+  - menu_ui
+  - node
+  - options
+  - path
+  - system
+  - text
+  - user
+  - views
